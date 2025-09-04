@@ -26,6 +26,6 @@ To deploy online, use any PaaS that supports networks in China.
 3. nvm install 18.18.0
 4. npm install
 5. npm run build
-6. nohup npm start
+6. pm2 start npm --name "my-app" -- run start
 
 Let me know if you need further adjustments!
